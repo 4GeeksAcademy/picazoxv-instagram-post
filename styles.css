@@ -1,0 +1,13 @@
+.post {
+    border: 15px solid black;
+    width: 500px;
+    margin: 0 auto;
+}
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 500px;
+}
