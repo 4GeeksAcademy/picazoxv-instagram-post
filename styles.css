@@ -1,13 +1,49 @@
 .post {
-    border: 15px solid black;
+    border: 1px solid black;
     width: 500px;
     margin: 0 auto;
 }
 .post-header {
+
     display: flex;
     justify-content: space-between;
+    margin: 15px 15px 15px 15px;
+    
+}
+.html {
+    display: flex;
+    flex-direction: row;
+}
+
+.html-rigo {
+   margin:0;
+   padding: 0;
+   
+}
+
+.html-icon {
+    font-size: 30px;
+}
+
+.dots{
+    font-size: 30px;
 }
 
 img {
     width: 500px;
+    height: 400px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.icons-under {
+    font-size: 30px;
+}
+p {
+    margin: 15px;
+    padding-bottom: 20px;
 }
